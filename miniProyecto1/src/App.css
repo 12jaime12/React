@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.gallery div{
+  width: 300px;
+  height: 450px;
+  border: solid 1px white;
+}
+.gallery div img{
+  width: 80%;
+  padding: 1rem;
+}
