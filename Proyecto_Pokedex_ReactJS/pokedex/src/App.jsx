@@ -66,6 +66,9 @@ const App = () => {
           </>
         )}
       </div>
+      <div className="footer">
+        <h3>Jaime Calvo Cuadrado ©2023</h3>
+      </div>
     </div>
   );
 };
