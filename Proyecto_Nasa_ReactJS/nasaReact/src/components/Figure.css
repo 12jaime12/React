@@ -1,7 +1,16 @@
 figure img{
     width: 400px;
-    height: 400px;
+    object-fit: cover;
 }
 .date{
     font-size: 20px;
+}
+/* .text{
+    text-align: justify;
+} */
+@media screen and ( max-width: 500px){
+    figure img{
+    width: 250px;
+    object-fit: cover;
+}
 }

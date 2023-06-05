@@ -35,11 +35,8 @@ function App() {
       ) : (
         <Figure data={apod} />
       )}
-      <div className="standard-dialog center">
-        <h3 className="dialog-text">
-          @lethamburn - 2022 -{" "}
-          <a href="https://api.nasa.gov/">https://api.nasa.gov/</a>
-        </h3>
+      <div className="footer">
+        <h3>Jaime Calvo Cuadrado ©2023</h3>
       </div>
     </div>
   );
